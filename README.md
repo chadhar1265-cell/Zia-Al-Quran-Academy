@@ -1,33 +1,46 @@
-# Ruh Al Quran Academy — Version 4.0
+# 🌙 Ruh Al Quran Academy
 
-## What's included
-- `index.html`: public website, WhatsApp and email links, and direct admission form.
-- `admin.html`: private application dashboard with search, filtering and status updates.
-- `server.py`: Python standard-library web server, SQLite application storage, password-protected admin sessions, optional SMTP notifications.
-- `Dockerfile`: deployable container.
+**Learn the Holy Quran Online — From Anywhere in the World**
 
-## Local setup
-1. Install Python 3.10+.
-2. Set environment variables `ADMIN_PASSWORD` (a long unique password) and `SESSION_SECRET` (at least 32 characters, preferably generated with `python -c "import secrets;print(secrets.token_hex(32))"`).
-3. Set `COOKIE_SECURE=0` for local HTTP development only.
-4. Run `python server.py` from this directory.
-5. Visit `http://localhost:8000/` and `http://localhost:8000/admin`.
+Welcome to Ruh Al Quran Academy, an online Quran learning platform offering personalized Quran education for children and adults.
 
-On Linux/macOS, example:
-```
-export ADMIN_PASSWORD='YOUR_LONG_UNIQUE_PASSWORD'
-export SESSION_SECRET='YOUR_RANDOM_64_CHAR_HEX_STRING'
-export COOKIE_SECURE=0
-python server.py
-```
+## 📖 Our Courses
 
-## Publishing
-Use a host that supports a **persistent disk** and Docker (for example, a paid Render web service with a persistent disk, or a VPS). Push this folder to a private Git repository, create a Docker web service, configure environment variables from `.env.example`, attach a persistent disk mounted at `/data`, and set `DATABASE_PATH=/data/admissions.sqlite3`. Set `COOKIE_SECURE=1` when HTTPS is active. Configure your host's domain and DNS per its instructions. **Do not use ephemeral hosting for SQLite**: applications will be lost on redeploy or restart. For scaling across multiple instances, migrate to a managed relational database.
+- Noorani Qaida
+- Quran Reading
+- Tajweed
+- Quran Memorization (Hifz)
+- Islamic Studies
+- Personalized Quran Learning
 
-## Important limitations
-- Direct form submission saves data to the server. WhatsApp and Email links still require the visitor to press Send in their own app.
-- Email notification is optional and only runs after SMTP credentials are configured. Do not put SMTP passwords in HTML or Git.
-- Admin access uses a single shared password; use a strong secret, limit staff access, and consider MFA/individual accounts before handling significant volumes of student data.
-- Protect and back up the SQLite database. Configure retention and a privacy policy, especially for minors; collect parent/guardian details and consent as needed.
-- Server-side per-IP rate limiting is basic and in-memory. Production deployment should add edge rate limiting, bot protection, access logging controls, and periodic security review.
-- This package does not purchase a domain, create a hosting account, or publish the site automatically.
+## ✨ Why Choose Us?
+
+- One-to-one online Quran classes
+- Flexible learning schedules
+- Classes for children and adults
+- Focus on correct Quran recitation and Tajweed
+- Free trial class inquiries
+
+## 🌐 Visit Our Website
+
+https://chadhar1265-cell.github.io/ruh-al-quran-academy/
+
+## 📩 Admissions & Contact
+
+**WhatsApp:** +92 303 7981225
+
+**Email:** ruhalquran@gmail.com
+
+Parents and students can complete the admission inquiry form on our website and choose to send their details through WhatsApp or Email.
+
+## 🔒 Website Information
+
+Our website is hosted on GitHub Pages.
+
+Admission inquiries are prepared in the visitor's browser and are not automatically stored in a database. Visitors must send their inquiries through WhatsApp or Email.
+
+An online admissions management dashboard may be introduced in the future.
+
+---
+
+© 2026 Ruh Al Quran Academy. All rights reserved.
