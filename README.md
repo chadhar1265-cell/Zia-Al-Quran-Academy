@@ -1,8 +1,8 @@
-# 🌙 Ruh Al Quran Academy
+# 🌙 Ziya Al Quran Academy
 
 **Learn the Holy Quran Online — From Anywhere in the World**
 
-Welcome to Ruh Al Quran Academy, an online Quran learning platform offering personalized Quran education for children and adults.
+Welcome to **Ziya Al Quran Academy**, an online Quran learning platform offering personalized Quran education for children and adults.
 
 ## 📖 Our Courses
 
@@ -11,36 +11,26 @@ Welcome to Ruh Al Quran Academy, an online Quran learning platform offering pers
 - Tajweed
 - Quran Memorization (Hifz)
 - Islamic Studies
-- Personalized Quran Learning
+- Personalized Learning
 
 ## ✨ Why Choose Us?
 
 - One-to-one online Quran classes
-- Flexible learning schedules
-- Classes for children and adults
-- Focus on correct Quran recitation and Tajweed
-- Free trial class inquiries
+- Flexible scheduling
+- Learning opportunities for children and adults
+- Supportive teaching approach
+- Free trial class requests
 
 ## 🌐 Visit Our Website
 
-https://chadhar1265-cell.github.io/ruh-al-quran-academy/
+https://chadhar1265-cell.github.io/Zia-Al-Quran-Academy/
 
-## 📩 Admissions & Contact
+## 📩 Admissions & Inquiries
 
-**WhatsApp:** +92 303 7981225
+Email: ruhalquran@gmail.com
 
-**Email:** ruhalquran@gmail.com
-
-Parents and students can complete the admission inquiry form on our website and choose to send their details through WhatsApp or Email.
-
-## 🔒 Website Information
-
-Our website is hosted on GitHub Pages.
-
-Admission inquiries are prepared in the visitor's browser and are not automatically stored in a database. Visitors must send their inquiries through WhatsApp or Email.
-
-An online admissions management dashboard may be introduced in the future.
+Visit our website to request a free trial class through WhatsApp or email.
 
 ---
 
-© 2026 Ruh Al Quran Academy. All rights reserved.
+© 2026 Ziya Al Quran Academy. All rights reserved.
